@@ -1,0 +1,22 @@
+html {
+margin: 0;
+
+}
+
+body {
+
+  background-color: pink;
+}
+
+
+header {
+
+ font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
+
+}
+
+#column1 {
+
+  background-color: #3f4b63;
+}
+

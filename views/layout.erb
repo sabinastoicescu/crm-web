@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+</head>
+<body>
+  
+
+<header>
+  <h1>Welcome to <%= @crm_app_name %></h1>
+</header>
+
+ <div> <%=yield%> </div>
+
+<div id="column1"></div>
+<div id="column2"></div>
+<div id="column3"></div>
+
+  <footer>
+    <p>Thanks for visiting! Come back soon!</p>
+  </footer>
+
+</body>
+</html>
